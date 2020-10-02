@@ -1,4 +1,8 @@
    /* Stackoverflow preview fix, please ignore */
+  .navbar {
+    background-color: teal;
+  }
+  
    .navbar-nav {
     flex-direction: row;
   }
@@ -12,6 +16,12 @@
   .ml-auto .dropdown-menu {
     left: auto !important;
     right: 0px;
+  }
+
+  .img-fluid {
+    height: auto;
+    width: 40%;
+    position: center;
   }
 
   .footer {
