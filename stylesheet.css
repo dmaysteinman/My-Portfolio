@@ -13,7 +13,8 @@
   }
 
   body {
-    background-image: url(./Images/cheesepaper.png);
+    background-image: url(./Images/Onions-stephen-noble.jpg);
+    background-repeat: repeat;
   }
   
   /* Fixes dropdown menus placed on the right side */
@@ -41,6 +42,7 @@
 
   .mb-4 {
     padding: 30px;
+    font-family: 'Jost', sans-serif;
   }
 
   .image-fluid {
