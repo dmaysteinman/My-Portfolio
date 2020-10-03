@@ -1,6 +1,5 @@
-   /* Stackoverflow preview fix, please ignore */
   .navbar {
-    background-color: teal;
+    background-color: rgb(2, 88, 88, .7);
   }
   
    .navbar-nav {
@@ -13,7 +12,7 @@
   }
 
   body {
-    background-image: url(./Images/Onions-stephen-noble.jpg);
+    background-image: url(../../Responsive_Portfolio/Images/cheesepaper.png);
     background-repeat: repeat;
   }
   
@@ -47,6 +46,15 @@
 
   .image-fluid {
     padding: 50px;
+  }
+
+  .contact-info {
+    padding: 50px;
+  }
+
+  .contact-info a {
+    padding: 20px;
+    margin-top: 30px;
   }
 
   .footer {
