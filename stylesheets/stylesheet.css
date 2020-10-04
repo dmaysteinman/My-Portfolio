@@ -1,5 +1,5 @@
   .navbar {
-    background-color: rgb(2, 88, 88, .7);
+    background-color: rgb(2, 88, 88, .9);
   }
   
    .navbar-nav {
@@ -27,16 +27,22 @@
     padding: 50px;
   }
 
-  .col-md-6 h3 {
+
+  .col-md-6 {
     text-align: center;
+    padding: 30px;
+  }
+
+  .col-md-6 h3 {
     font-size: 50px;
-    font-weight: 500;
+    background-color: rgb(2, 88, 88, .9);
+    color: rgb(250, 240, 225);
   }
 
   .col-md-6 p {
-    padding: 30px;
-    text-align: center;
     font-size: 30px;
+    background-color: rgb(2, 88, 88, .7);
+    color: rgb(250, 240, 225);
   }
 
   .mb-4 {
@@ -44,17 +50,26 @@
     font-family: 'Jost', sans-serif;
   }
 
+  .mb-4 h2 {
+    font-size: 50px;
+  }
+
+  .mb-4 p {
+    font-size: 20px;
+  }
+
   .image-fluid {
     padding: 50px;
   }
 
   .contact-info {
-    padding: 50px;
+
   }
 
-  .contact-info a {
+  .btn {
+    background-color: rgb(2, 88, 88, .9);
     padding: 20px;
-    margin-top: 30px;
+    margin: 15px;
   }
 
   .footer {
