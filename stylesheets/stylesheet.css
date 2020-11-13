@@ -13,9 +13,8 @@
   }
 
   body {
-    background-image: url(../../Responsive_Portfolio/Images/cheesepaper.png);
-    background-repeat: repeat;
-    background-color: rgb(221, 203, 175);
+    background-image: "../Images/sfc_mushroom.jpg"
+    /* background-color: rgb(221, 203, 175); */
     position: relative;
   }
 
