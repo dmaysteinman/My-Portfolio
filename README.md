@@ -22,4 +22,4 @@ Portfolio contains two assignments that were pretty good
 Contact page contains my email and instagram & linkedin 
 
 ### Deployed Link
-https://github.com/dmaysteinman/My-Portfolio/settings
+https://dmaysteinman.github.io/My-Portfolio/
