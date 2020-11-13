@@ -13,7 +13,7 @@
   }
 
   body {
-    background-image: "../Images/sfc_mushroom.jpg"
+    background-image: "./Images/sfc_mushroom.jpg"
     /* background-color: rgb(221, 203, 175); */
     position: relative;
   }
@@ -80,15 +80,23 @@
     padding-top: 50px;
     font-size: 20px;
   }
+
+  #academic {
+    border-color: teal;
+    padding: 20px;
+  }
+
+  #papers {
+    width: 100%;
+    height: 1000px;
+  }
 /* Writing Page */
 
 .footer {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  text-align: center;
   /* font-size: 100px; */
-}
+} 
 
   .btn {
     background-color: rgb(2, 88, 88, .9);
