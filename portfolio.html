@@ -34,7 +34,7 @@ The Bootstrap portfolio should minimize the use of media queries. -->
 
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
     <div class="container">
       <!-- Home page -->
       <a class="navbar-brand" href="./index.html" id="logo">Danielle May Steinman</a>
@@ -61,28 +61,54 @@ The Bootstrap portfolio should minimize the use of media queries. -->
       </div>
       <!-- /Nav Bar -->
     </div>
-    <!-- Whole thing -->
   </nav>
+    <!-- Whole thing -->
 
   <main>
-
+<!-- Portfolio Cards -->
   <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-6">
+    <div class="card-columns d-flex justify-content-center" id="portfolio_cards">
+    <!-- Online Education Resource -->
+    <div class="card-body" id="portfolio">
+      <h5 class="card-title">Online Education Resource</h5>
       <img src="./screenshots/demo.png" class="img-fluid" alt=project_1>
+      <p class="card-text">First group project using APIs to pull up educational YouTube videos as well as school information based on zip code.</p>
+      <div class="links">
+        <a href=https://dmaysteinman.github.io/Remote-Education-Resource class="float-left" target="_blank">Deployed Site</a>
+        <a href="https://github.com/dmaysteinman/Remote-Education-Resource" class="float-right" target="_blank">Git Hub Code</a>
+      </div>
     </div>
-    <div class="col-md-6">
+    <!-- Work Day Scheduler -->
+    <div class="card-body" id="portfolio">
+      <h5 class="card-title">Work Day Scheduler</h5>
       <img src="./screenshots/dmaysteinman.github.io_Work_Day_Scheduler_.png" class="img-fluid" alt="Work_day_scheduler">
+      <p class="card-text">Work day scheduler featuring color coded time blocks, local storage, and up-to-the-second timer.</p>
+      <div class="links">
+        <a href="https://dmaysteinman.github.io/Work_Day_Scheduler/" class="float-left" target="_blank">Deployed Site</a>
+        <a href="https://github.com/dmaysteinman/Work_Day_Scheduler" class="float-right" target="_blank">Git Hub Code</a>
+      </div>
     </div>
+    <!-- Random Password Generator -->
+    <div class="card-body" id="portfolio">
+      <h5 class="card-title">Random Password Generator</h5>
+      <img src="./screenshots/screenshot1.png" class="img-fluid" alt="Random_Password_Generator">
+      <p class="card-text">Random password generator, featuring special characters, uppercase & lowercase letters, and numbers.</p>
+      <div class="links">
+        <a href="https://dmaysteinman.github.io/Password_generator/" class="float-left" target="_blank">Deployed Site</a>
+        <a href="https://github.com/dmaysteinman/Password_generator" class="float-right" target="_blank">Git Hub Code</a>
+      </div>
     </div>
-  <footer class="footer">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright
-      </p>
-  </footer>
+  </div>
   </main>
-
+<!-- footer -->
+<div class="footer text-center">
+  <footer>
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer">
+      Page by Dani Steinman 
+    </p>
+  </footer>
+</div>
 
 
 
