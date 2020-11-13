@@ -1,5 +1,5 @@
   .navbar {
-    background-color: rgb(2, 88, 88, .9);
+    background-color: rgba(131, 127, 109, 0.9);
   }
   
    .navbar-nav {
@@ -9,6 +9,7 @@
   .nav-link {
     padding-right: .5rem !important;
     padding-left: .5rem !important;
+    color: black;
   }
 
   body {
@@ -35,14 +36,14 @@
 
   .col-md-6 h3 {
     font-size: 50px;
-    background-color: rgb(2, 88, 88, .9);
+    background-color: rgba(216, 205, 185, 0.9);
     color: rgb(250, 240, 225);
   }
 
   .col-md-6 p {
     font-size: 30px;
     background-color: rgb(2, 88, 88, .7);
-    color: rgb(250, 240, 225);
+    color: rgb(146, 128, 100);
   }
 
   .mb-4 {
