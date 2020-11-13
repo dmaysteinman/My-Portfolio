@@ -13,10 +13,13 @@ Layouts of the pages were build with bootstrap and with css built by me
 the background image is an image of cheesepaper that I edited to make lighter so it was less distracting. [This is the image I used](https://www.fromagex.com/pub/media/catalog/product/cache/05c056f81be49f7758d477b418e948c4/P/4/P401SPLDFB_1_1.jpg)
 
 ### Index page: 
-Index page includes an adorable picture of me and a quick bio ![index screenshot](../Responsive_Portfolio/screenshots/index.png)
+Index page includes an adorable picture of me and a quick bio 
 
 ### Portfolio page: 
-Portfolio contains our first homework and a funny picture ![portfolio screenshot](../Responsive_Portfolio/screenshots/portfolio.png)
+Portfolio contains two assignments that were pretty good 
 
 ### Contact page: 
-Contact page contains my email and instagram (it's my only social media) ![contact screenshot](../Resonsive_Portfolio/screenshots/contact.png)
+Contact page contains my email and instagram & linkedin 
+
+### Deployed Link
+https://github.com/dmaysteinman/My-Portfolio/settings
