@@ -20,6 +20,13 @@
     right: 0px;
   }
 
+  body {
+    background-image: url("../Images/lehrbuchderprak00hoff_0188.jpg");
+    background-color: rgb(230, 211, 184, .1);
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+  }
+
   .container-fluid {
     font-family: 'Jost', sans-serif;
     padding: 50px;
@@ -37,17 +44,11 @@
     color: rgb(250, 240, 225);
   }
 
-  .col-md-6 p {
+  #index_main {
     font-size: 30px;
-    background-color: rgb(2, 88, 88, .7);
     color: rgb(146, 128, 100);
   }
-
-  .mb-4 {
-    padding: 30px;
-    font-family: 'Jost', sans-serif;
-  }
-
+  
   .mb-4 h2 {
     font-size: 50px;
   }
@@ -60,16 +61,10 @@
     padding: 50px;
   }
 
-  .contact-info {
-
-  }
   /* Portfolio Page */
   #portfolio_cards {
-  }
-  
-  #port_body {
-    background-image: "../Images/burpees_annual_carrots.png";
-    background-repeat: repeat;
+    background-color: hsl(33, 48%, 78%, .7);
+    padding: 10px;
   }
 
   /* Writing page */
@@ -85,9 +80,11 @@
     font-size: 20px;
   }
 
-  #academic {
+  #writing_card {
     border-color: teal;
-    padding: 20px;
+    border-width: 5px;
+    padding: 10px;
+    background-color: hsl(33, 48%, 78%, .7);
   }
 
   #papers {
@@ -95,10 +92,6 @@
     height: 500px;
   }
 
-  #w_body {
-    background-image: "../Images/sfc_mushroom.png";
-    background-repeat: repeat;
-  }
 /* Writing Page */
 
 

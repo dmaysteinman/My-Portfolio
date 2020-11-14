@@ -67,9 +67,10 @@ The Bootstrap portfolio should minimize the use of media queries. -->
   <main>
 <!-- Portfolio Cards -->
   <div class="container-fluid">
-    <div class="card-columns d-flex justify-content-center" id="portfolio_cards">
+    <div class="row" id="portfolio_cards">
     <!-- Online Education Resource -->
-    <div class="card-body" id="portfolio">
+    <div class="col-md-4">
+    <div class="card-body">
       <h5 class="card-title">Online Education Resource</h5>
       <img src="./screenshots/demo.png" class="img-fluid" alt=project_1>
       <p class="card-text">First group project using APIs to pull up educational YouTube videos as well as school information based on zip code.</p>
@@ -78,8 +79,10 @@ The Bootstrap portfolio should minimize the use of media queries. -->
         <a href="https://github.com/dmaysteinman/Remote-Education-Resource" class="float-right" target="_blank">Git Hub Code</a>
       </div>
     </div>
+    </div>
     <!-- Work Day Scheduler -->
-    <div class="card-body" id="portfolio">
+    <div class="col-md-4">
+    <div class="card-body">
       <h5 class="card-title">Work Day Scheduler</h5>
       <img src="./screenshots/dmaysteinman.github.io_Work_Day_Scheduler_.png" class="img-fluid" alt="Work_day_scheduler">
       <p class="card-text">Work day scheduler featuring color coded time blocks, local storage, and up-to-the-second timer.</p>
@@ -88,8 +91,11 @@ The Bootstrap portfolio should minimize the use of media queries. -->
         <a href="https://github.com/dmaysteinman/Work_Day_Scheduler" class="float-right" target="_blank">Git Hub Code</a>
       </div>
     </div>
+    </div>
+
     <!-- Random Password Generator -->
-    <div class="card-body" id="portfolio">
+    <div class="col-md-4">
+    <div class="card-body">
       <h5 class="card-title">Random Password Generator</h5>
       <img src="./screenshots/screenshot1.png" class="img-fluid" alt="Random_Password_Generator">
       <p class="card-text">Random password generator, featuring special characters, uppercase & lowercase letters, and numbers.</p>
@@ -99,7 +105,12 @@ The Bootstrap portfolio should minimize the use of media queries. -->
       </div>
     </div>
   </div>
+
+  <!-- </div> -->
+</div>
+
   </main>
+
 <!-- footer -->
 <div class="footer text-center">
   <footer>

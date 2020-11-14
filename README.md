@@ -1,16 +1,14 @@
 # Responsive Portfolio
 ## Description: 
-This is my responsive portfolio assignment
+This is my updated portfolio assignment
 
-I'm still not entirely sure what a readme is for. I'd love some more input or an example of a succeessfully written one. 
-
-The purpose of this assignment was to create a personal portfolio page with responsive links and images
+I just edited my old portfolio and updated it instead of building a new one from scratch. Though this decision was the result of laziness, it ended being great because I got to see how far I've come with CSS styling and HTML. 
 
 ## Tech stack: 
 Layouts of the pages were build with bootstrap and with css built by me
 
 ### Background image: 
-the background image is an image of cheesepaper that I edited to make lighter so it was less distracting. [This is the image I used](https://www.fromagex.com/pub/media/catalog/product/cache/05c056f81be49f7758d477b418e948c4/P/4/P401SPLDFB_1_1.jpg)
+the background image is from a book from a German (probably) book on botany from The Lloyd Library (https://www.biodiversitylibrary.org/item/263976#page/188/mode/1up)
 
 ### Index page: 
 Index page includes an adorable picture of me and a quick bio 
