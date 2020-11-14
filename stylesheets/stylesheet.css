@@ -21,14 +21,14 @@
   }
 
   body {
-    background-image: url("../Images/lehrbuchderprak00hoff_0188.jpg");
+    background-image: url("../Images/sfc_mushroom_2.jpg");
     background-color: rgb(230, 211, 184, .1);
     background-repeat: repeat;
     background-blend-mode: lighten;
   }
 
   .container-fluid {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Times New Roman';
     padding: 50px;
   }
 
@@ -48,7 +48,7 @@
     font-size: 30px;
     color: rgb(146, 128, 100);
   }
-  
+
   .mb-4 h2 {
     font-size: 50px;
   }
@@ -60,7 +60,32 @@
   .image-fluid {
     padding: 50px;
   }
+  
+  /* Index Page */
+  #index_title {
+    font-size: 40px;
+    background-color: rgba(216, 205, 185, 0.9);
+    color: rgb(2, 88, 88);
+  }
 
+  #index_subtitle {
+    font-size: 30px;
+    background-color: rgba(216, 205, 185, 0.9);
+    color: rgb(2, 88, 88);
+  }
+
+  /* Contact Page */
+  #contact_title {
+    font: "Times New Roman";
+    color: rgb(2, 88, 88);
+    background-color: rgba(216, 205, 185, 0.9);
+    font-weight: bold;
+  }
+
+  #contact_subtitle {
+    background-color:rgba(216, 205, 185, 0.9);
+    color: rgb(2, 88, 88);
+  }
   /* Portfolio Page */
   #portfolio_cards {
     background-color: hsl(33, 48%, 78%, .7);
@@ -70,18 +95,18 @@
   /* Writing page */
   .writing-title {
     font-size: 50px;
-    color: teal;
+    color: rgb(2, 88, 88);
     font-weight: bolder;
     padding-top: 30px;
   }
   .writing-subtitle {
-    color: teal;
+    color: rgb(2, 88, 88);
     padding-top: 50px;
     font-size: 20px;
   }
 
   #writing_card {
-    border-color: teal;
+    border-color: rgb(2, 88, 88);
     border-width: 5px;
     padding: 10px;
     background-color: hsl(33, 48%, 78%, .7);
@@ -96,7 +121,8 @@
 
 
   .btn {
-    background-color: rgb(2, 88, 88, .9);
-    padding: 20px;
+    background-color: rgb(2, 88, 88);
+    padding: 5px;
     margin: 15px;
+    font-size: 30px;
   }
